@@ -4,7 +4,7 @@ function changeImage() {
     const source = document.getElementById("jukeboxmusica");
 
 
-    if (document.getElementById("imgClickAndChange").src == "ykw1boxart.webp"){
+    if (img.src.includes("ykw1boxart.webp")){
         img.src = "whiteboxart.webp";
         source.src = "ykwblasters.m4a";
     } else {
@@ -15,5 +15,6 @@ function changeImage() {
     audio.load();
     audio.play();
 }
+
 
 
