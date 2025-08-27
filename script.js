@@ -5,7 +5,7 @@ function changeImage() {
 
 
     if (document.getElementById("imgClickAndChange").src == "ykw1boxart.webp"){
-        img.src = "redboxart.webp";
+        img.src = "whiteboxart.webp";
         source.src = "ykwblasters.m4a";
     } else {
         img.src = "ykw1boxart.webp";
@@ -15,4 +15,5 @@ function changeImage() {
     audio.load();
     audio.play();
 }
+
 
