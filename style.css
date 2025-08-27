@@ -19,7 +19,7 @@ html {
 
 .imgjukebox {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 90%;
   object-fit: contain;
 }
 
@@ -87,3 +87,4 @@ p{
   font-family: 'ChangaOne';
 
 }
+
